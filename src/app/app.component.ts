@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'course-project';
+  tabToShow = "recipes";
+
+  onTabChosen(tabName) {
+    this.tabToShow = tabName;
+  }
 }
