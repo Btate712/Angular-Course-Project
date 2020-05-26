@@ -17,6 +17,6 @@ export class RecipeBookComponent implements OnInit {
       (recipe: Recipe) => {
         this.recipe = recipe;
       }
-    )
+    );
   }
 }
